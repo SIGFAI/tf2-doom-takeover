@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "sigf/x_imp"
+	"$halflambert" "1"
+}

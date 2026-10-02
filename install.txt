@@ -1,0 +1,1 @@
+Copy the mod folder into Team Fortress 2's tf/custom folder, start a local game on any map with bots, and everyone turns into Doom monsters and marines.

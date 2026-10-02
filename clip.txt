@@ -1,0 +1,5 @@
+Moments the clip must show:
+[x] 1. At 4 s a crowd of 3D Doom marines, imps and cacodemons stands close in front of the player, under a red hell tint, with the Doom shotgun and face on screen.
+[x] 2. They fight: damage numbers, hits flash the bodies red, kills shake the screen with a red flash and the bloody face.
+[x] 3. Kills: bodies topple, blood, skulls, shotgun blast and screech sounds, shout captions low on the screen.
+[x] 4. A new kill every 6 seconds so the effect repeats through the whole clip.
