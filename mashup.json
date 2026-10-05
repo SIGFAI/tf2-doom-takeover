@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "name": "Doom Takeover",
   "tagline": "Bring Doom into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "how_to_play": [
+    "Every TF2 fighter turns into a Doom body: RED are marines, BLU are imps and cacodemons.",
+    "Kills explode into blood and flying skulls, with RIP AND TEAR style shouts on screen.",
+    "Open the console and type: map koth_viaduct (any map works); bots join and fight on their own.",
+    "You watch the match as a spectator while the camera follows the action."
+  ],
   "kind": "mashup",
   "games": [
     {
@@ -238,8 +244,5 @@
     "id": "tf2",
     "status": "draft"
   },
-  "built_at": "2026-10-05T15:28:53.320Z",
-  "notes": [
-    "Copy the mod folder into Team Fortress 2's tf/custom folder, start a local game on any map with bots, and everyone turns into Doom monsters and marines."
-  ]
+  "built_at": "2026-10-05T15:28:53.320Z"
 }
