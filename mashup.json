@@ -1,0 +1,245 @@
+{
+  "id": "sigf/tf2-doom-takeover",
+  "version": "1.0.0",
+  "name": "Doom Takeover",
+  "tagline": "Bring Doom into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "tf2",
+      "role": "host",
+      "engine": "Team Fortress 2 (Source, 64 bits) + VScript (Squirrel)",
+      "apps": {
+        "steam": "440"
+      }
+    },
+    {
+      "game": "doom",
+      "role": "guest",
+      "label": "Doom"
+    }
+  ],
+  "requires": [],
+  "install": [
+    {
+      "game": "tf2",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "tf2-doom-takeover.zip",
+          "dst": "{game}/tf/custom/sigf_doom_takeover",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "materials/models/sigf/doom_cac.vmt",
+              "sha256": "5d0c6c2bd78ffacdfcd7587293f9f779437004bb1e1d7d31a43ec7942938f504"
+            },
+            {
+              "path": "materials/models/sigf/doom_imp.vmt",
+              "sha256": "c8c76c95040b2a1f17fad86cd9fe62e63769d3093538404ea842499a916848c2"
+            },
+            {
+              "path": "materials/models/sigf/doom_mar.vmt",
+              "sha256": "2feccf42634cb22c6caabf3a75e0e1b8d03451608808d0a8ff0a16809e032d99"
+            },
+            {
+              "path": "materials/sigf/doom_o1.vmt",
+              "sha256": "ff6ba82e8a406e5dcc9235a0a908e481c0b2be6778d47a65e4a8584bc6f5dccd"
+            },
+            {
+              "path": "materials/sigf/doom_o1.vtf",
+              "sha256": "a5409495e5b8cd33284d48fa7470f27eca433ba36c8f8f944ccf032b95eab5ce"
+            },
+            {
+              "path": "materials/sigf/doom_o2.vmt",
+              "sha256": "09d272aafd9051d49f9836c12902c8965aacb8c83f6723b87090c46ab64ad5fb"
+            },
+            {
+              "path": "materials/sigf/doom_o2.vtf",
+              "sha256": "9ea151d9170f8ab8bb1024f4bf56d66e669394800ac011a1dcc43a00c4ffc203"
+            },
+            {
+              "path": "materials/sigf/x_cac.vmt",
+              "sha256": "d5b9aa3f5d0a3e60a4e0e6b451a3f1a2b02d2cb3b62f6befb7956d5722c19628"
+            },
+            {
+              "path": "materials/sigf/x_cac.vtf",
+              "sha256": "8eac7cb362db8efb4df8a626cd9c9dd42f68aa4cc0ac327aace0a4891ac40387"
+            },
+            {
+              "path": "materials/sigf/x_imp.vmt",
+              "sha256": "d990856e2c670428436a3ae7bfdc3cb85ad7056dc5b161f536b389bbb3d46952"
+            },
+            {
+              "path": "materials/sigf/x_imp.vtf",
+              "sha256": "6b9b6bf9327900624571de254e7340f0ea2ec2ff2a390e4a954b5cb09ccd42a1"
+            },
+            {
+              "path": "materials/sigf/x_mar.vmt",
+              "sha256": "84fb4aaa1bdfee7d8c1fd778c2742f83cf38ad8544f67f931d03869a225b86f0"
+            },
+            {
+              "path": "materials/sigf/x_mar.vtf",
+              "sha256": "917156a085461e13749583c0f3f9d72621a967414845029e845d81cc94a24850"
+            },
+            {
+              "path": "models/sigf/cac.dx80.vtx",
+              "sha256": "6bf28bf485fd858e3d2153247a6e448534ff8a4f6456959f2bd7535ccb3aceb5"
+            },
+            {
+              "path": "models/sigf/cac.dx90.vtx",
+              "sha256": "5404ec059be53ff79eacc87db6da7a13895b5b9816cefc888d112f92e12fbaba"
+            },
+            {
+              "path": "models/sigf/cac.mdl",
+              "sha256": "3f92fd1d398daff462ff86d2b61805cb97e56668f060a25a368cda4aefb66348"
+            },
+            {
+              "path": "models/sigf/cac.sw.vtx",
+              "sha256": "791198d05183817467b66287202d6436dbe3877545fa498e233127fd2e4e5698"
+            },
+            {
+              "path": "models/sigf/cac.vvd",
+              "sha256": "3ad6c93b5f876ba1959444cb34c40ad184127c1756a9f4e7ff8feecdb1859652"
+            },
+            {
+              "path": "models/sigf/imp.dx80.vtx",
+              "sha256": "abffb0ca78d871a7e689b42c5aac80bb1c0f383c0635fcbfa372bc37fc1ede8b"
+            },
+            {
+              "path": "models/sigf/imp.dx90.vtx",
+              "sha256": "07123fcb63471ef04910761283911de82b5d96b56eb638581ae0266ad8482f8c"
+            },
+            {
+              "path": "models/sigf/imp.mdl",
+              "sha256": "3d0275bc3945577424af75dc956c1e82a7a5e20fb7d90668f78e0d6a020933fe"
+            },
+            {
+              "path": "models/sigf/imp.sw.vtx",
+              "sha256": "ec4cdf062b03b0476826579382e6136606f97951842d8b7beb26ac5e75e2ee38"
+            },
+            {
+              "path": "models/sigf/imp.vvd",
+              "sha256": "c9c340067ae9b3f5d482e317dff13a126f8dc2a7fb9789c8c4979e028f3f3ace"
+            },
+            {
+              "path": "models/sigf/mar.dx80.vtx",
+              "sha256": "fe5605e361eeb2cc233e314d04550ddbffe2d5c8a2c376bed088fda885e938c9"
+            },
+            {
+              "path": "models/sigf/mar.dx90.vtx",
+              "sha256": "5731b8a77777ebeabda5f2f5c4d4e53ea1e458bfb319d2ea69e3b5b0d5845a08"
+            },
+            {
+              "path": "models/sigf/mar.mdl",
+              "sha256": "07e3795c1e376899302cc26d4a03daa4b51dc1abb24c67fccab42adba86461b7"
+            },
+            {
+              "path": "models/sigf/mar.sw.vtx",
+              "sha256": "075bab69d3db370dfb06d163b868204e2c938a69a50235830f3f4e245f64e620"
+            },
+            {
+              "path": "models/sigf/mar.vvd",
+              "sha256": "b3a8973f45394fffa0184963956207d4b908272b991ddc944ef85c40b26d5480"
+            },
+            {
+              "path": "scripts/vscripts/sigf_demo.nut",
+              "sha256": "1c9be2db8870b707dfe3ed2331a24b07e2f21ba2b480cf7055bc41037303019e"
+            },
+            {
+              "path": "scripts/vscripts/sigf_mod.nut",
+              "sha256": "2c018db058ff66bc4fe46653eecf39d140ca7191a6f24173f5f6189bf8034621"
+            },
+            {
+              "path": "sound/sigf/imp_roar.wav",
+              "sha256": "50a0165af99ab774624bfbf01ea4543f67e533d522d619b30278a2cc20d3ed98"
+            },
+            {
+              "path": "sound/sigf/shotgun.wav",
+              "sha256": "e185fd0275d06e8a728e06669414d976cf149019c0b5a96d0164ec43a2550363"
+            },
+            {
+              "path": "sound/sigf/splat.wav",
+              "sha256": "b97ef47d6164f63d34c4ade87085eecf9f14e12b9d6436534eccdf42db527f56"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/tf2-doom-takeover/releases/download/v1.0.0/tf2-doom-takeover.zip",
+          "sha256": "9c512b84564fc1789b66d2d31f2eac4af52bc20861345383b21eee1ddffec4e9",
+          "size": 3967925
+        },
+        {
+          "src": "tf2-doom-takeover-game-kit.zip",
+          "dst": "{game}/tf/custom/sigf_kit",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "cfg/sigf_server.cfg",
+              "sha256": "ac6e43c9f1240fc9fa574be5aeeec813c7eb888ad1ac0c9e31d047e2df2c35ea"
+            },
+            {
+              "path": "scripts/vscripts/mapspawn.nut",
+              "sha256": "e7f32c2c316ec8f918c981e3611386d0b554a03135ba5b7daf6c3bd5109e6d05"
+            },
+            {
+              "path": "scripts/vscripts/sigf_bricks.nut",
+              "sha256": "c2eb380bb45207e2d854c0e7e92eba7db013b11f332debf8accfafa331362344"
+            },
+            {
+              "path": "scripts/vscripts/sigf_lib.nut",
+              "sha256": "714a90211d747e98594f0f7b69ec8ad90a1bd8e1d81388570dbc7896b38b8eba"
+            },
+            {
+              "path": "scripts/vscripts/sigf_pilot.nut",
+              "sha256": "8471e7c409a9dafb604dd9e091c05f954acaa4f77fac04a137b5e3a2365e095d"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/tf2-doom-takeover/releases/download/v1.0.0/tf2-doom-takeover-game-kit.zip",
+          "sha256": "00975887ba6cb74161054d6c48128bf5681a3e36c794eecab8906429de1a7685",
+          "size": 9533
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "tf2",
+      "args": [
+        "-game",
+        "tf",
+        "-insecure"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "name": "tf2-doom-takeover.zip",
+      "url": "https://github.com/SIGFAI/tf2-doom-takeover/releases/download/v1.0.0/tf2-doom-takeover.zip",
+      "sha256": "9c512b84564fc1789b66d2d31f2eac4af52bc20861345383b21eee1ddffec4e9",
+      "size": 3967925
+    },
+    {
+      "name": "tf2-doom-takeover-game-kit.zip",
+      "url": "https://github.com/SIGFAI/tf2-doom-takeover/releases/download/v1.0.0/tf2-doom-takeover-game-kit.zip",
+      "sha256": "00975887ba6cb74161054d6c48128bf5681a3e36c794eecab8906429de1a7685",
+      "size": 9533
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/tf2-doom-takeover",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "tf2",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:28:53.320Z",
+  "notes": [
+    "Copy the mod folder into Team Fortress 2's tf/custom folder, start a local game on any map with bots, and everyone turns into Doom monsters and marines."
+  ]
+}
